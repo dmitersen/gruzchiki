@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <title>Грузчики 61</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="mobile-menu__overlay">
+            <div class="mobile-menu__container">
+                <a href="#" class="mobile-menu-link">
+                    <img class="mobile-menu__logo" src="./assets/images/logo.png" alt="Logotype" />
+                </a>
+                <nav>
+                    <ul class="mobile-menu">
+                        <a href="#header">
+                            <li class="mobile-menu__item mobile-menu__item--active">Главная</li>
+                        </a>
+                        <a href="#about">
+                            <li class="mobile-menu__item">Услуги</li>
+                        </a>
+                        <a href="#prices">
+                            <li class="mobile-menu__item">Цены</li>
+                        </a>
+                        <a href="#cars">
+                            <li class="mobile-menu__item">Автопарк</li>
+                        </a>
+                        <a href="#description">
+                            <li class="mobile-menu__item">О компании</li>
+                        </a>
+                        <a href="#contacts">
+                            <li class="mobile-menu__item">Контакты</li>
+                        </a>
+                    </ul>
+                </nav>
+                <div class="header__contacts mobile-menu__contacts">
+                    <img src="./assets/images/phone-icon.png" alt="Phone icon" />
+                    <div class="header__contacts-numbers">
+                        <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+                        <a href="tel:89999999999">8-999-999-99-99</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <header class="header" id="header">
+            <div class="container header__container">
+                <a href="#" class="header__logo-link">
+                    <img class="header__logo" src="./assets/images/logo.png" alt="Logotype" />
+                </a>
+                <div></div>
+                <div class="header__info">
+                    <div class="block-slicing header__contacts">
+                        <img src="./assets/images/phone-icon.png" alt="Phone icon" />
+                        <div class="header__contacts-numbers">
+                            <a href="tel:+799999999">+7 (999) 999-40-17</a>
+                            <a href="tel:89379890430">8-999-999-94-30</a>
+                        </div>
+                    </div>
+                    <div class="block-slicing header__benefits">
+                        <span>Быстро</span>
+                        <span>Качественно</span>
+                        <span>Надежно</span>
+                    </div>
+                    <div class="block-slicing header__about">
+                        <div class="header__about-item">
+                            <img src="./assets/images/hours-icon.png" alt="Hours icon" />
+                            <a href="tel:+79528224017">Круглосуточно</a>
+                        </div>
+                        <div class="header__about-item">
+                            <img src="./assets/images/email-icon.png" alt="Email icon" />
+                            <a href="mailto:gruzchiki61@bk.ru">gruzchiki61@bk.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="burger-icon">
+                    <svg viewBox="0 0 100 80" width="32" height="20" fill="#fff">
+                        <rect width="100" height="20" rx="8" ry="8"></rect>
+                        <rect y="30" width="100" height="20" rx="8" ry="8"></rect>
+                        <rect y="60" width="100" height="20" rx="8" ry="8"></rect>
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <div class="menu">
+            <div class="container">
+                <nav>
+                    <ul class="menu">
+                        <a href="#header">
+                            <li class="menu__item menu__item--active">Главная</li>
+                        </a>
+                        <a href="#about">
+                            <li class="menu__item">Услуги</li>
+                        </a>
+                        <a href="#prices">
+                            <li class="menu__item">Цены</li>
+                        </a>
+                        <a href="#cars">
+                            <li class="menu__item">Автопарк</li>
+                        </a>
+                        <a href="#description">
+                            <li class="menu__item">О компании</li>
+                        </a>
+                        <a href="#contacts">
+                            <li class="menu__item">Контакты</li>
+                        </a>
+                    </ul>
+            </div>
+        </div>
+        <section class="hot">
+            <div class="hot__container">
+                <div class="swiper hot-items">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="hot-card">
+                                <img class="hot-card__bg" src="./assets/images/carousel.jpg" alt="акция">
+                                <div class="hot-card__content">
+                                    <div class="hot-card__title">
+                                        Скидка 10%
+                                    </div>
+                                    <div class="hot-card__text">
+                                        Ответьте на несколько вопросов и получите скидку на услуги
+                                        грузчиков
+                                    </div>
+                                    <div class="button__primary">
+                                        Получить скидку
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hot-card">
+                                <img class="hot-card__bg" src="./assets/images/carousel.jpg" alt="акция">
+                                <div class="hot-card__content">
+                                    <div class="hot-card__title">
+                                        Вечером дешевле
+                                    </div>
+                                    <div class="hot-card__text">
+                                        Квартирный переезд со скидкой 15% при бронировании за 2 дня
+                                    </div>
+                                    <div class="button__primary">
+                                        Получить скидку
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="hot-card">
+                                <img class="hot-card__bg" src="./assets/images/carousel.jpg" alt="акция">
+                                <div class="hot-card__content">
+                                    <div class="hot-card__title">
+                                        Скидка 10%
+                                    </div>
+                                    <div class="hot-card__text">
+                                        Ответьте на несколько вопросов и получите скидку на услуги
+                                        грузчиков
+                                    </div>
+                                    <div class="button__primary">
+                                        Получить скидку
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="hot__pagination"></div>
+                    <div class="navigation-prev hot__button-prev"></div>
+                    <div class="navigation-next hot__button-next"></div>
+                </div>
+            </div>
+
+        </section>
+        <section class="section about" id="about">
+            <div class="container about__container">
+                <div class="about__content">
+                    <div class="section__title about__title">Почему мы?</div>
+                    <ul class="check-list">
+                        <li class="check-list__item">Лучшая цена - грузчики от 350₽/час</li>
+                        <li class="check-list__item">Собственный автопарк - газель всего за 350₽/час/час</li>
+                        <li class="check-list__item">Никаких доплат - никакой оплаты за этажи, подачу машины и т.д.</li>
+                        <li class="check-list__item">Лучшие грузчики - граждане РФ, трезвые, вежливые, опытные</li>
+                        <li class="check-list__item">Круглосуточно - работаем 24 часа в сутки</li>
+                    </ul>
+                </div>
+                <img src="./assets/images/gruzchic63.png" alt="About">
+            </div>
+        </section>
+        <section class="section prices" id="prices">
+            <div class="container">
+                <div class="section__title">Цены на услуги грузчиков в Ростове-на-Дону 2022</div>
+                <div class="section__subtitle">* антикризисное снижение цен</div>
+                <div class="grid">
+                    <div class="grid__item">
+                        <h3 class="grid__item-title">
+                            Грузчики, разнорабочие
+                        </h3>
+                        <div class="grid__item-button button__primary">от 350₽/час</div>
+                        <div class="grid__item-prompt">
+                            Посмотреть все цены
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <h3 class="grid__item-title">
+                            Квартирный переезд
+                        </h3>
+                        <div class="grid__item-button button__primary">от 799₽</div>
+                        <div class="grid__item-prompt">
+                            Посмотреть все цены
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <h3 class="grid__item-title">
+                            Подъём стройматериалов
+                        </h3>
+                        <div class="grid__item-button button__primary">от 160₽/тонна</div>
+                        <div class="grid__item-prompt">
+                            Посмотреть все цены
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <h3 class="grid__item-title">
+                            Вывоз мусора
+                        </h3>
+                        <div class="grid__item-button button__primary">от 110₽/час</div>
+                        <div class="grid__item-prompt">
+                            Посмотреть все цены
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <h3 class="grid__item-title">
+                            Аренда газели
+                        </h3>
+                        <div class="grid__item-button button__primary">от 350₽/час/час</div>
+                        <div class="grid__item-prompt">
+                            Посмотреть все цены
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <h3 class="grid__item-title">
+                            Перевозка мебели
+                        </h3>
+                        <div class="grid__item-button button__primary">от 1420₽</div>
+                        <div class="grid__item-prompt">
+                            Посмотреть все цены
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section benefits">
+            <div class="container benefits__container">
+                <div class="benefits__item">
+                    <img src="./assets/images/pereezd-icon.png" alt="Benefit">
+                    <div class="benefits__item-info">
+                        <div class="benefits__item-title">Разборка и сборка мебели</div>
+                        <div class="benefits__item-text">
+                            Применяем аккумуляторные шуруповёрты, ключи, шестигранники и прочие инструменты. Собираем
+                            мебель с 2008 года
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits__item">
+                    <img src="./assets/images/calc-icon.png" alt="Benefit">
+                    <div class="benefits__item-info">
+                        <div class="benefits__item-title">Недорогая упаковка</div>
+                        <div class="benefits__item-text">
+                            Низкая стоимость упаковки сократит ваши затраты на покупку коробок, упаковочной плёнки,
+                            скотча, мягких прокладочных
+                            материалов
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section cars" id="cars">
+            <div class="container section__title">Автопарк газелей</div>
+            <div class="container">
+                <div class="swiper cars-carousel">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="car-card">
+                                <img class="car-card__bg" src="./assets/images/cars/1.jpg" alt="Газель">
+                                <div class="car-card__content">
+                                    <div class="car-card__title">
+                                        Газель тентованная
+                                    </div>
+                                    <div class="car-card__content">
+                                        <div class="car-card__content-param">
+                                            <span>длина: </span>3,2 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>высота: </span>1,7 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>Объём: </span>11 м<sup>3</sup>
+                                        </div>
+                                    </div>
+                                    <div class="button__primary car-card__price">
+                                        350₽/час
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="car-card">
+                                <img class="car-card__bg" src="./assets/images/cars/2.jpg" alt="Газель">
+                                <div class="car-card__content">
+                                    <div class="car-card__title">
+                                        Газель с высоким тентом
+                                    </div>
+                                    <div class="car-card__content">
+                                        <div class="car-card__content-param">
+                                            <span>длина: </span>3,2 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>высота: </span>2,2 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>Объём: </span>14 м<sup>3</sup>
+                                        </div>
+                                    </div>
+                                    <div class="button__primary car-card__price">
+                                        650₽/час
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="car-card">
+                                <img class="car-card__bg" src="./assets/images/cars/4.jpg" alt="Газель">
+                                <div class="car-card__content">
+                                    <div class="car-card__title">
+                                        Газель бортовая
+                                    </div>
+                                    <div class="car-card__content">
+                                        <div class="car-card__content-param">
+                                            <span>длина: </span>3,2 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>высота: </span>2 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>Объём: </span>12 м<sup>3</sup>
+                                        </div>
+                                    </div>
+                                    <div class="button__primary car-card__price">
+                                        750₽/час
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="car-card">
+                                <img class="car-card__bg" src="./assets/images/cars/5.jpg" alt="Газель">
+                                <div class="car-card__content">
+                                    <div class="car-card__title">
+                                        Газель ФЕРМЕР
+                                    </div>
+                                    <div class="car-card__content">
+                                        <div class="car-card__content-param">
+                                            <span>длина: </span>3,2 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>высота: </span>1,8 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>Объём: </span>11 м<sup>3</sup>
+                                        </div>
+                                    </div>
+                                    <div class="button__primary car-card__price">
+                                        850₽/час
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="car-card">
+                                <img class="car-card__bg" src="./assets/images/cars/6.jpg" alt="Газель">
+                                <div class="car-card__content">
+                                    <div class="car-card__title">
+                                        Газель с термобудкой
+                                    </div>
+                                    <div class="car-card__content">
+                                        <div class="car-card__content-param">
+                                            <span>длина: </span>3,2 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>высота: </span>1,6 метра
+                                        </div>
+                                        <div class="car-card__content-param">
+                                            <span>Объём: </span>11 м<sup>3</sup>
+                                        </div>
+                                    </div>
+                                    <div class="button__primary car-card__price">
+                                        900₽/час
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navigation-prev cars-carousel__button-prev"></div>
+                    <div class="navigation-next cars-carousel__button-next"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section pm">
+            <div class="container pm__container">
+                <img src="./assets/images/pm1.jpg" alt="pm1">
+                <img src="./assets/images/pm2.jpg" alt="pm2">
+                <img src="./assets/images/pm3.jpg" alt="pm3">
+                <img src="./assets/images/pm4.jpg" alt="pm4">
+            </div>
+        </section>
+        <section class="section customers">
+            <h3 class="container section__title">
+                Наши крупные заказчики
+            </h3>
+            <div class="container customers__container">
+                <img src="./assets/images/companies/1.png" alt="customer">
+                <img src="./assets/images/companies/2.png" alt="customer">
+                <img src="./assets/images/companies/3.png" alt="customer">
+                <img src="./assets/images/companies/4.png" alt="customer">
+                <img src="./assets/images/companies/5.png" alt="customer">
+                <img src="./assets/images/companies/6.png" alt="customer">
+            </div>
+        </section>
+        <section class="section description" id="description">
+            <h3 class="container section__title">
+                Услуги грузчиков и недорогие переезды в Ростове-на-Дону
+            </h3>
+            <div class="description__container container">
+                <span class="description__bold">
+                    Компания «Грузчики 61» предлагает услуги грузчиков и организацию недорогих переездов в Ростове-на-Дону и
+                    области
+                    с 2010 года.</span>
+                <span class="description__bold">Предоставляемые услуги:</span>
+                <span class="description__medium">Мы оказываем широкий спектр услуг, к числу которых относится:</span>
+                <ul class="description-list">
+                    <li class="description-list__item">
+                        Вывоз строительного мусора. Проведение строительных работ требует своевременного вывоза
+                        накопившегося
+                        мусора. С нашей
+                        помощью вы избавитесь от него в любое удобное для вас время;
+                    </li>
+                    <li class="description-list__item">
+                        Грузоперевозки на ГАЗели и других автомобилях. Мы готовы организовать недорогой переезд в любую
+                        точку
+                        Ростова-на-Дону и области,
+                        а также по всей территории Российской Федерации. Мы обладаем обширным автопарком, в состав
+                        которого
+                        входит транспорт
+                        различной грузоподъемности. Наши грузчики подберут оптимальный способ переезда;
+                    </li>
+                    <li class="description-list__item">
+                        Демонтаж. Мы готовы качественно и быстро разобрать любые строительные сооружения, демонтировать
+                        технику
+                        (например,
+                        привинченные к стенам телевизоры), сантехнику, стеновые и напольные покрытия и перегородки;
+                    </li>
+                    <li class="description-list__item">
+                        Обслуживание складов и строительных компаний;
+                    </li>
+                    <li class="description-list__item">
+                        Офисные и квартирные переезды. Мы предоставляем услуги оперативной и качественной упаковки
+                        мебели,
+                        вещей
+                        и оргтехники.
+                        Наши грузчики недорого осуществят переезд и выполнят расстановку мебели согласно
+                        предоставленному
+                        плану.
+                        Алгоритм
+                        действий может заранее утверждаться и прорабатываться нашими специалистами с учетом пожеланий
+                        заказчика;
+                    </li>
+                    <li class="description-list__item">
+                        Подъем строительных материалов на этаж. Доставка необходимых материалов и смесей к дверям
+                        квартиры
+                        или
+                        непосредственно в
+                        указанное место Ростова-на-Дону или Ростовской области;
+                    </li>
+                    <li class="description-list__item">
+                        Погрузочно-разгрузочные работы. К услугам грузчиков следует прибегнуть в том случае, если вам
+                        необходимо осуществить
+                        переезд из одной точки в другую;
+                    </li>
+                    <li class="description-list__item">
+                        Поставку упаковочного материала. Это актуально в том случае, если вам необходимо упаковать
+                        мебель,
+                        оргтехнику, одежду
+                        или кухонную утварь. Мы предоставим качественные картонные ящики, упаковочную пленку, а также
+                        снабдим вас прочими
+                        материалами, необходимыми для безопасного и удобного переезда;
+                    </li>
+                    <li class="description-list__item">
+                        Предоставление услуг грузчиков и разнорабочих. Наши специалисты выполнят работы, которые не
+                        требуют
+                        высокой
+                        квалификации. Они осуществят погрузку, разгрузку и перестановку мебели;
+                    </li>
+                    <li class="description-list__item">
+                        Транспортировка музыкальных инструментов. Такие музыкальные инструменты, как пианино и рояль,
+                        требуют бережной
+                        транспортировки при помощи специального оборудования. Наши грузчики и водители обладают
+                        достаточным
+                        опытом проведения
+                        подобных работ;
+                    </li>
+                    <li class="description-list__item">
+                        Упаковка, складирование, фасовка, сортировка. Наши специалисты быстро и качественно проведут
+                        весь
+                        спектр работ согласно
+                        утвержденному плану, а также критериям отбора и раскладки товаров или вещей в упаковках.
+                        Сортировка
+                        и фасовка позволяет
+                        клиентам быстро ориентироваться среди имеющейся продукции.
+                    </li>
+                </ul>
+                <div class="description__images">
+                    <img src="./assets/images/footer-1.png" alt="Footer image">
+                    <img src="./assets/images/footer-2.png" alt="Footer image">
+                </div>
+            </div>
+        </section>
+        <footer class="section footer" id="contacts">
+            <div class="footer__container container">
+                <div class="footer__content">
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item footer-menu__item--active">Главная</li>
+                        <li class="footer-menu__item">Услуги</li>
+                        <li class="footer-menu__item">Цены</li>
+                        <li class="footer-menu__item">Калькулятор</li>
+                        <li class="footer-menu__item">Отзывы</li>
+                        <li class="footer-menu__item">О компании</li>
+                        <li class="footer-menu__item">Контакты</li>
+                    </ul>
+                    <span>
+                        © ООО “Грузчики 61“, 2010-2022
+                    </span>
+                    <span>
+                        rostov-gruzchiki61.ru
+                    </span>
+                </div>
+                <div class="footer__content">
+                    <div class="footer__content-item">
+                        <i class='bx bxs-phone'></i>
+                        <a href="tel:+799999999">+7 (899) 99-99-99</a>
+                    </div>
+                    <div class="footer__content-item">
+                        <i class='bx bxs-envelope'></i>
+                        <a href="mailto:gruzchiki61@bk.ru">gruzchiki61@bk.ru</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/scripts/index.js"></script>
+</body>
+
+</html>
